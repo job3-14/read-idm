@@ -5,7 +5,6 @@ import time
 import sys
 
 frag = 'False'
-#global frag
 
 def read(tag):
 	tag = str(tag)                              #変数tsgを文字列型に変換
@@ -46,4 +45,3 @@ while frag == 'False':
 	time.sleep(0.5)
 else:
 	sys.exit()
-
